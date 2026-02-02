@@ -37,16 +37,15 @@ To write and execute Assembly Language Programs to perform arithmetic operations
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
 MOV CL,00H
-MOV AX,[SI]
-MOV BX,[SI+02H]
-ADD AX,BX
+MOV AX,1234H
+MOV BX,124H
+SUB AX,BX
 JNC L1
 INC CL
-L1:
-MOV [SI+04H],AX
-MOV [SI+06H],CL
+L1:MOV SI,1200H
+MOV [SI], AX
+MOV [SI+2], CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -61,11 +60,14 @@ END
 
 #### Manual Calculations
 
-(Add your calculation here)
+
+![WhatsApp Image 2026-02-02 at 10 33 26 AM](https://github.com/user-attachments/assets/71f7af8f-ace8-4957-b2a1-080be93d4d4f)
+
 
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
+<img width="633" height="391" alt="Screenshot 2026-01-28 112650" src="https://github.com/user-attachments/assets/6cb79d2d-a373-4cf3-8069-361a66b803e8" />
 
 ## 2. SUBTRACTION
 
@@ -87,16 +89,15 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
 MOV CL,00H
-MOV AX,[SI]
-MOV BX,[SI+02H]
+MOV AX,1234H
+MOV BX,124H
 SUB AX,BX
 JNC L1
 INC CL
-L1:
-MOV [SI+04H],AX
-MOV [SI+06H],CL
+L1:MOV SI,1200H
+MOV [SI], AX
+MOV [SI+2], CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -113,11 +114,13 @@ END
 #### Manual Calculations
 
 (Add your calculation here)
+![WhatsApp Image 2026-02-02 at 10 48 30 AM](https://github.com/user-attachments/assets/681824e9-595d-47f0-8977-bb3316bc5d06)
 
 ---
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="618" height="289" alt="Screenshot 2026-01-28 112426" src="https://github.com/user-attachments/assets/74648cd4-30cc-44fc-88be-9edb7f8a5523" />
 
 ## 3. MULTIPLICATION
 
@@ -140,13 +143,15 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
-MOV DX,0000H
-MOV AX,[SI]
-MOV BX,[SI+02H]
-MUL BX
-MOV [SI+04H],AX
-MOV [SI+06H],DX
+MOV CL,00H
+MOV AX,1234H
+MOV BX,124H
+MUL AX,BX
+JNC L1
+INC CL
+L1:MOV SI,1200H
+MOV [SI], AX
+MOV [SI+2], CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -166,6 +171,7 @@ END
 ---
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
+<img width="636" height="394" alt="Screenshot 2026-02-02 105653" src="https://github.com/user-attachments/assets/3e214664-3cc3-49f6-b2a5-1fa9a9a45f5c" />
 
 ## 4. DIVISION
 
@@ -185,13 +191,15 @@ END
 CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
-MOV SI,2000H
-MOV DX,0000H
-MOV AX,[SI]
-MOV BX,[SI+02H]
-DIV BX
-MOV [SI+04H],AX
-MOV [SI+06H],DX
+MOV CL,00H
+MOV AX,1234H
+MOV BX,124H
+DIV AX,BX
+JNC L1
+INC CL
+L1:MOV SI,1200H
+MOV [SI], AX
+MOV [SI+2], CL
 MOV AH,4CH
 INT 21H
 CODE ENDS
@@ -210,6 +218,7 @@ END
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
+<img width="633" height="393" alt="image" src="https://github.com/user-attachments/assets/d88da5f6-0293-4b9a-8215-5cf3b881cfe6" />
 
 
 
