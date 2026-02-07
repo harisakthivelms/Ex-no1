@@ -67,7 +67,7 @@ END
 ---
 
 ## OUTPUT IMAGE FROM MASM SOFTWARE
-<img width="633" height="391" alt="Screenshot 2026-01-28 112650" src="https://github.com/user-attachments/assets/6cb79d2d-a373-4cf3-8069-361a66b803e8" />
+<img width="333" height="391" alt="Screenshot 2026-01-28 112650" src="https://github.com/user-attachments/assets/6cb79d2d-a373-4cf3-8069-361a66b803e8" />
 
 ## 2. SUBTRACTION
 
@@ -81,7 +81,7 @@ END
 
 ## FLOWCHART
 
-<img width="578" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
+<img width="378" height="797" alt="image" src="https://github.com/user-attachments/assets/564c3c7a-33ce-4a1c-8920-beb5c24b9b47" />
 
 
 #### Program
@@ -120,7 +120,7 @@ END
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
-<img width="618" height="289" alt="Screenshot 2026-01-28 112426" src="https://github.com/user-attachments/assets/74648cd4-30cc-44fc-88be-9edb7f8a5523" />
+<img width="318" height="289" alt="Screenshot 2026-01-28 112426" src="https://github.com/user-attachments/assets/74648cd4-30cc-44fc-88be-9edb7f8a5523" />
 
 ## 3. MULTIPLICATION
 
