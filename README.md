@@ -121,7 +121,7 @@ END
 
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
-<img width="318" height="289" alt="Screenshot 2026-01-28 112426" src="https://github.com/user-attachments/assets/74648cd4-30cc-44fc-88be-9edb7f8a5523" />
+<img width="569" height="289" alt="Screenshot 2026-01-28 112426" src="https://github.com/user-attachments/assets/74648cd4-30cc-44fc-88be-9edb7f8a5523" />
 
 ## 3. MULTIPLICATION
 
