@@ -40,7 +40,7 @@ ORG 1000H
 MOV CL,00H
 MOV AX,1234H
 MOV BX,124H
-SUB AX,BX
+ADD AX,BX
 JNC L1
 INC CL
 L1:MOV SI,1200H
@@ -56,7 +56,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|     1000 = 1234H        |    1200 =  58            |
+|     1001 = 0123H        |    1201 =  13            |
 
 #### Manual Calculations
 
@@ -109,7 +110,8 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|     1000 = 1234H        |      1200 = 58           |
+|     1001 = 0123H        |      1201 = 13           |
 
 #### Manual Calculations
 
