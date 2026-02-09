@@ -114,8 +114,6 @@ END
 |     1001 = 0123H        |      1201 = 11           |
 
 #### Manual Calculations
-
-(Add your calculation here)
 ![WhatsApp Image 2026-02-09 at 10 07 25 AM](https://github.com/user-attachments/assets/4162d363-578d-4019-84c5-0832d12e5c2b)
 
 
@@ -172,7 +170,6 @@ END
  
 #### Manual Calculations
 
-(Add your calculation here)
 
 ---![WhatsApp Image 2026-02-09 at 10 33 17 AM](https://github.com/user-attachments/assets/1bfb2a6c-ca95-4443-be19-5034f640abf2)
 
@@ -222,12 +219,13 @@ END
 | ----------------------- | ------------------------ |
 |    1000 = 1234H         |         1200 = 01        |
 |    1001 = 124 H         |         1201 = 00        |
+|                         |         1202 = 00        |
+|                         |         1203 = E8        |
 
 #### Manual Calculations
 ![WhatsApp Image 2026-02-09 at 10 30 17 AM](https://github.com/user-attachments/assets/95d04403-4b55-4357-b184-5831624d6e97)
 
 
-(Add your calculation here)
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
