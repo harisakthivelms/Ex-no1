@@ -60,8 +60,8 @@ END
 
 #### Manual Calculations
 
+![WhatsApp Image 2026-02-09 at 10 07 26 AM](https://github.com/user-attachments/assets/b8381cc1-dbff-420b-92ec-c6f298ced15e)
 
-![WhatsApp Image 2026-02-02 at 10 33 26 AM](https://github.com/user-attachments/assets/71f7af8f-ace8-4957-b2a1-080be93d4d4f)
 
 
 ---
@@ -114,7 +114,9 @@ END
 #### Manual Calculations
 
 (Add your calculation here)
-![WhatsApp Image 2026-02-02 at 10 48 30 AM](https://github.com/user-attachments/assets/681824e9-595d-47f0-8977-bb3316bc5d06)
+![WhatsApp Image 2026-02-09 at 10 07 25 AM](https://github.com/user-attachments/assets/4162d363-578d-4019-84c5-0832d12e5c2b)
+![
+
 
 ---
 
