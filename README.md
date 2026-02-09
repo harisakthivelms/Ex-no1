@@ -110,14 +110,13 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|     1000 = 1234H        |      1200 = 58           |
-|     1001 = 0123H        |      1201 = 13           |
+|     1000 = 1234H        |      1200 = 10           |
+|     1001 = 0123H        |      1201 = 11           |
 
 #### Manual Calculations
 
 (Add your calculation here)
 ![WhatsApp Image 2026-02-09 at 10 07 25 AM](https://github.com/user-attachments/assets/4162d363-578d-4019-84c5-0832d12e5c2b)
-![
 
 
 ---
@@ -166,16 +165,23 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
-
+|     1000 =  1234        |      1200 = 58           |
+|     1001 =  124         |      1201 = 13           |
+|                         |      1202 = 00           |
+|                         |      1203 = E8           |
+ 
 #### Manual Calculations
 
 (Add your calculation here)
 
----
+---![WhatsApp Image 2026-02-09 at 10 33 17 AM](https://github.com/user-attachments/assets/1bfb2a6c-ca95-4443-be19-5034f640abf2)
+
+
 
 ## OUTPUT SCREEN FROM MASM SOFTWARE
-<img width="636" height="394" alt="Screenshot 2026-02-02 105653" src="https://github.com/user-attachments/assets/3e214664-3cc3-49f6-b2a5-1fa9a9a45f5c" />
+![WhatsApp Image 2026-02-09 at 10 36 07 AM](https://github.com/user-attachments/assets/dfaf5eba-9cd1-45dd-b5fb-090825fa90e2)
+
+
 
 ## 4. DIVISION
 
@@ -214,15 +220,18 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|                         |                          |
+|    1000 = 1234H         |         1200 = 01        |
+|    1001 = 124 H         |         1201 = 00        |
 
 #### Manual Calculations
+![WhatsApp Image 2026-02-09 at 10 30 17 AM](https://github.com/user-attachments/assets/95d04403-4b55-4357-b184-5831624d6e97)
+
 
 (Add your calculation here)
 
 ---
 ## OUTPUT FROM MASM SOFTWARE
-<img width="633" height="393" alt="image" src="https://github.com/user-attachments/assets/d88da5f6-0293-4b9a-8215-5cf3b881cfe6" />
+![WhatsApp Image 2026-02-09 at 10 43 46 AM](https://github.com/user-attachments/assets/0fe1bc4e-8022-4012-a84c-d39b8c46183c)
 
 
 
